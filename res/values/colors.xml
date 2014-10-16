@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="state_pressed">#BB7dbcd3</color>
+    <color name="state_focused">#777dbcd3</color>
+       
+    <color name="selector_checked">#BE272D</color>
+    <color name="selector_unchecked">#706E6E6E</color>
+    <color name="selector_unchecked_border">#D8D8D8</color>
+</resources>

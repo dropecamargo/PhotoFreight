@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size android:width="@dimen/gallery_selector_width" android:height="@dimen/gallery_selector_height" />
+    <solid android:color="@color/selector_checked"/>
+    <stroke android:width="@dimen/gallery_selector_border" android:color="@android:color/white" />    
+</shape>

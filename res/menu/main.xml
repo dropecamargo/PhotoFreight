@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_refresh_galleries"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh_galleries"/>
+    
+    <item
+        android:id="@+id/action_new_gallery"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_new_picture"
+        android:title="@string/action_new_gallery"/>
+    <item
+        android:id="@+id/action_extra"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/action_extra">        
+        <menu>
+            <item android:id="@+id/action_exit" android:title="@string/action_exit" />
+        </menu>
+    </item>      
+    	
+	
+</menu>

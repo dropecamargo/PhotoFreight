@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/gallery_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_thumbnail_default_height"
+		android:layout_margin="@dimen/image_thumbnail_margin"
+		android:src="@drawable/ic_launcher" 
+		android:contentDescription="@string/desc_image" />
+    
+	<CheckBox
+        android:id="@+id/gallery_item_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"         
+        android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="@dimen/gallery_selector_margin_right"
+		android:layout_marginTop="@dimen/gallery_selector_margin_top"
+		android:background="@drawable/gallery_item_select_selector"
+		android:button="@drawable/ic_action_accept" />
+
+</RelativeLayout>	

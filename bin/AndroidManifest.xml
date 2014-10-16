@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mct.photofreight"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="16" />
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name="com.mct.photofreight.PhotoFreightApplication">
+        
+        <activity
+            android:name="com.mct.photofreight.MainActivity"
+            android:label="@string/app_name" 
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+			android:name="com.mct.photofreight.GalleryDetailActivity"
+	        android:parentActivityName="com.mct.photofreight.MainActivity">
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	   	        android:value="com.mct.photofreight.MainActivity" />
+    	</activity>
+        
+		<activity
+            android:name="com.mct.photofreight.ImageActivity"
+            android:theme="@style/ImageTheme">            
+        </activity>
+
+    </application>
+
+</manifest>
+<!-- android:configChanges="orientation|keyboardHidden|screenLayout|screenSize" -->

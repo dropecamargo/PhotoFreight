@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	
+	<ImageView
+        android:id="@+id/gallery_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="12dip" 
+        android:contentDescription="@string/desc_icon_list_gallery"  />
+
+    <TextView
+        android:id="@+id/gallery_name"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/gallery_icon"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+</RelativeLayout>

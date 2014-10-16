@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+    android:layout_gravity="center" 
+    android:orientation="vertical"  >
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/txtImgLogin" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtUser"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="15dip"
+        android:hint="@string/txtPass"
+        android:inputType="textPassword" />
+</LinearLayout>

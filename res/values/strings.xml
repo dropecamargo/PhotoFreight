@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoFreight</string>
+    <string name="action_settings">Settings</string>
+	<string name="msg_progress">Procesando, Espere unos segundos&#8230;</string>
+	<string name="msg_galleries_not_found">No se encontraron galerias.</string>
+	
+	<string name="msg_exit_application_title">Cerrar sesión</string>
+	<string name="msg_exit_application_message">¿Está seguro de querer cerrar sesión?</string>
+	
+	<!-- Actions -->
+    <string name="action_new_gallery">Nueva galeria</string>
+    <string name="action_extra">Opciones</string>
+    <string name="action_refresh_galleries">Actualizar lista de galerias</string>
+    <string name="action_exit">Salir</string>        
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    
+	<string name="msg_delete_gallery_title">Eliminar Galeria</string>
+	<string name="msg_delete_gallery_message">Al eliminar la galería perderá las imágenes almacenadas el ella. ¿Está seguro de querer eliminarla?</string>	
+	<string name="msg_gallery_name">Ingrese nombre</string>
+	<string name="msg_gallery_create">Crear</string>
+    <string name="msg_gallery_empty_name">Debe existir nombre galeria, por favor vuelva a intentarlo o comuníquese con MCT.</string>
+    <string name="msg_gallery_cancel_create">Cancelar</string>
+    <string name="msg_gallery_success_create">Galeria creada con exito !!</string>  
+    <string name="msg_gallery_success_refresh">Lista de galerias actualizada !!</string>    
+    <string name="msg_gallery_error_mkdir">No fue posible crear el directorio, por favor vuelva a intentarlo o comuníquese con MCT.</string>
+    <string name="msg_gallery_error_write">Almacenamiento externo no está montado o no tiene permisos de escritura.</string>    
+    <string name="msg_gallery_exist">Ya existe galeria con este nombre.</string>    
+    <string name="msg_gallery_error_storage">Directorio  de almacenamiento no puede ser recuperado.</string>     
+    <string name="msg_gallery_no_exist">No fue posible recuperar galeria, por favor vuelva a intentarlo o comuníquese con MCT.</string>
+    <string name="msg_gallery_success_delete">Galeria eliminada con exito !!</string>    
+    <string name="msg_gallery_error_delete">No fue posible eliminar el directorio, por favor vuelva a intentarlo o comuníquese con MCT.</string>
+    
+    <!-- List Gallery --> 
+    <string name="desc_icon_list_gallery">Icono galeria</string>    
+    
+    <!-- Detail Gallery --> 
+    <string name="desc_image_detail_gallery">Galeria de imagenes</string>
+	<string name="action_new_image">Nueva foto</string>
+	<string name="action_delete_image">Eliminar imagenes</string>
+	<string name="action_upload_image">Cargar imagenes</string>
+	<string name="action_select_image">Seleccionar todas</string>	
+
+	<!-- Image --> 
+    <string name="desc_image">Image original</string>
+    <string name="msg_image_could_decoded">Los datos de la imagen no pueden ser decodificados, por favor vuelva a intentarlo o comuníquese con MCT.</string>
+    
+    <!-- Camera --> 
+    <string name="msg_camera_error_file">Se produjo un error al crear el archivo.</string>    
+    <string name="action_shutter">Capturar</string>
+    <string name="desc_switcher_flash">Activar o desactivar flash</string>
+    <string name="desc_switcher_camera">Cambiar camara</string>
+    <string name="desc_image_back_gallery">Regresar</string>    
+        
+    <!-- Exception -->
+    <string name="general_exception">Ups&#8230; Al parecer tenemos problemas, vuelva a intentarlo en unos segudos o comuníquese con MCT.</string>
+    <string name="host_exception">La conexión con los servidores de MCT ha fallado. Revisa conexión de red o vuelve a intentarlo más tarde.</string>
+    <string name="soap_fault_exception">No fue posible acceder al recurso de MCT.</string>
+    <string name="xml_parser_Exception">No es posible leer la respuesta del recurso de MCT.</string>
+    <string name="io_exception">No fue posible llamar al recurso de MCT.</string>
+    <string name="null_pointer_exception">Ups&#8230; Al parecer ocurrio un error, por favor vuelva a intentarlo.</string>
+  
+    <!--  Por Ordenar -->
+    <string name="lb_typeimage">Imagen de:  </string>
+    <string name="msg_no_photo">No ha seleccionado imágenes para subir&#8230;</string>
+    <string name="msg_find_title">Operación a Actualizar</string>
+    <string name="msg_find_desc">Digite el número de la remesa</string>
+    <string name="msg_find">Enviar</string>
+    <string name="msg_cancel">Cancelar</string>
+    
+    <string name="txtUser">Usuario</string>
+    <string name="txtPass">Contraseña</string>
+    <string name="userEmpty">Por favor, ingrese cuenta de usuario.</string>
+    <string name="userWrong">Caracteres invalidos para la cuenta de usuario.</string>
+    <string name="userPass">Por favor, ingrese contraseña.</string>
+    <string name="txtProgressLogin">Procesando, Espere unos segundos&#8230;</string>
+    <string name="txtImgLogin">MCT</string>
+        
+    <string name="msg_login">Iniciar sesión</string>
+    <string name="msg_login_title">MCT Login</string>
+    <string name="msg_login_desc">Bienvenido a Casa!!!</string>
+    
+    <string name="remesaEmpty">Por favor, ingrese un numero de remesa.</string>
+    <string name="remesaWrong">Caracteres invalidos o incompletos para la remesa.</string>
+    
+    <string name="txtNotifyRemTitle">Remesa:</string>
+    <string name="txtNotifyRemText">Se ha subido una imagen más:</string>
+    <string name="txtFailMv">Ha fallado el movimiento de la imagen que se ha subido:</string>
+    
+    <string name="txtNotifyUploadImagesTitle">Subida de imágenes.</string>
+    <string name="txtNotifyUploadImagesText">Se ha iniciado la subida de imagenes para la remesa seleccionada&#8230;</string>
+    
+</resources>
